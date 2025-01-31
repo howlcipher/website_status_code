@@ -1,0 +1,29 @@
+{ "websites" : {
+    "windows_login": [
+        {"name" : "Fifsmail", 
+         "url" : ["http://intranet/fifsmail"]},
+         {"name" : "Admin Portal", 
+         "url": ["http://intranet/adminportal/"]},
+         {"name" : "Exposure Summary", 
+         "url": ["http://intranet/fifssign/Apps/ExposureSummary"]},
+         {"name" : "Welcome Dashboard", 
+         "url": ["http://intranet/FIFSSign/Send/WelcomeCallDashboard"]},
+         {"name" : "FIFS SIGN", 
+         "url" : ["http://intranet/fifssign"]}  
+    ],
+
+    "no_login" : [
+        {"name" : "Stellantis-fs.com", 
+        "url" : ["http://www.stellantis-fs.com"]},
+        {"name" : "FIFSG.com", 
+        "url": ["https://www.fifsg.com/"]},
+        {"name" : "FIFS API", 
+        "url": ["https://api.fifsg.com/api/test/StatusCode_FromReturn"]}  
+        ],
+        
+    "login_needed" : [
+        {"name" : "SFS Taskrunner", 
+        "url" : ["http://intranet/SFStaskrunner/hangfire"]}   
+        ] 
+    }                   
+}
