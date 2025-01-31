@@ -1,29 +1,46 @@
-{ "websites" : {
+{
+  "websites": {
     "windows_login": [
-        {"name" : "Fifsmail", 
-         "url" : ["http://intranet/fifsmail"]},
-         {"name" : "Admin Portal", 
-         "url": ["http://intranet/adminportal/"]},
-         {"name" : "Exposure Summary", 
-         "url": ["http://intranet/fifssign/Apps/ExposureSummary"]},
-         {"name" : "Welcome Dashboard", 
-         "url": ["http://intranet/FIFSSign/Send/WelcomeCallDashboard"]},
-         {"name" : "FIFS SIGN", 
-         "url" : ["http://intranet/fifssign"]}  
+      {
+        "name": "Example Mail",
+        "url": ["http://example.com/mail"]
+      },
+      {
+        "name": "Admin Portal",
+        "url": ["http://example.com/admin"]
+      },
+      {
+        "name": "Summary Dashboard",
+        "url": ["http://example.com/summary"]
+      },
+      {
+        "name": "Welcome Dashboard",
+        "url": ["http://example.com/welcome"]
+      },
+      {
+        "name": "Main Application",
+        "url": ["http://example.com/app"]
+      }
     ],
-
-    "no_login" : [
-        {"name" : "Stellantis-fs.com", 
-        "url" : ["http://www.stellantis-fs.com"]},
-        {"name" : "FIFSG.com", 
-        "url": ["https://www.fifsg.com/"]},
-        {"name" : "FIFS API", 
-        "url": ["https://api.fifsg.com/api/test/StatusCode_FromReturn"]}  
-        ],
-        
-    "login_needed" : [
-        {"name" : "SFS Taskrunner", 
-        "url" : ["http://intranet/SFStaskrunner/hangfire"]}   
-        ] 
-    }                   
+    "no_login": [
+      {
+        "name": "Public Site",
+        "url": ["http://public.com"]
+      },
+      {
+        "name": "Partner Site",
+        "url": ["https://partner.com"]
+      },
+      {
+        "name": "API Endpoint",
+        "url": ["https://api.partner.com/status"]
+      }
+    ],
+    "login_needed": [
+      {
+        "name": "Task Manager",
+        "url": ["http://example.com/taskmanager"]
+      }
+    ]
+  }
 }
